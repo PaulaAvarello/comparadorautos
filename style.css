@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    color: aliceblue;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(49,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+img{
+    text-align: center;
+    margin: 0.2em;
+    width: 100%;
+    height: fit-content;
+}
+.city{
+    margin: 1.5em;
+    border: solid rgb(156, 35, 193);
+    border-radius: 6px;
+}
+.auto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 1em;
+    padding: 1em;
+    border: solid rgb(31, 236, 191);
+    border-radius: 6px;
+}
+.precio{
+    font-weight: bold;
+}
